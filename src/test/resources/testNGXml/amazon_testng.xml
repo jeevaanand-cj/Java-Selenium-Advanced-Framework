@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon Test Suite">
+    <listeners>
+        <listener class-name="com.gcit.listeners.ListenerClass"></listener>
+        <listener class-name="com.gcit.listeners.MethodInterceptor"></listener>
+        <listener class-name="com.gcit.listeners.AnnotationTransformer"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Sample Test" parallel="classes" thread-count="5">
+        <classes>
+            <class name="com.gcit.tests.amazon.HomePageTest">
+                <parameter name="browser" value="edge"></parameter>
+                <methods>
+                    <include name="TC001_amazonHomePageTest"/>
+                    <include name="TC003_amazonHomePageTest"/>
+                </methods>
+            </class>
+            <class name="com.gcit.tests.amazon.CopyHomePageTest">
+                <parameter name="browser" value="chrome"></parameter>
+                <methods>
+                    <include name="TC002_amazonHomePageTest"/>
+                </methods>
+            </class>
+<!--            <class name="com.gcit.tests.orangehrm.OrangeHrmTests1">-->
+<!--                <parameter name="browser" value="edge"></parameter>-->
+<!--                <methods>-->
+<!--                    <include name="TC002_dashboardAccessTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>

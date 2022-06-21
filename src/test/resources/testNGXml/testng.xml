@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <parameter name="environment" value="QA"></parameter>
+    <listeners>
+        <listener class-name="com.gcit.listeners.ListenerClass"></listener>
+        <listener class-name="com.gcit.listeners.MethodInterceptor"></listener>
+        <listener class-name="com.gcit.listeners.AnnotationTransformer"></listener>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="Sample Test" parallel="classes">
+        <classes>
+            <class name="com.gcit.tests.orangehrm.OrangeHrmTests">
+                <parameter name="browser" value="chrome"></parameter>
+                <methods>
+                    <include name="TC001_dashboardAccessTest"/>
+                    <include name="TC003_dashboardAccessTest"/>
+                </methods>
+            </class>
+
+            <class name="com.gcit.tests.orangehrm.OrangeHrmTests1">
+                <parameter name="browser" value="firefox"></parameter>
+                <methods>
+                    <include name="TC002_dashboardAccessTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,18 @@
+{
+  "testCaseLists": [
+    {
+      "testCaseName": "dashboardAccessTest",
+      "testDescription": "Orange HRM Login",
+      "execute": "yes",
+      "priority": "1",
+      "count": "2"
+    },
+    {
+      "testCaseName": "dashboardAccessTest1",
+      "testDescription": "Orange HRM Login One",
+      "execute": "no",
+      "priority": "2",
+      "count": "2"
+    }
+  ]
+}

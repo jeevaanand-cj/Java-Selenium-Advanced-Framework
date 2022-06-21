@@ -1,0 +1,59 @@
+{
+  "QA" : {
+    "amazonHomePageTest" : [ {
+      "searchItem" : "Mobiles, Computers",
+      "environment" : "QA",
+      "priority" : "1",
+      "execute" : "Yes",
+      "subSearchItem" : "Laptops",
+      "testcasename" : "TC001_amazonHomePageTest"
+    }, {
+      "searchItem" : "Men",
+      "environment" : "QA",
+      "priority" : "2",
+      "execute" : "Yes",
+      "subSearchItem" : "Clothing",
+      "testcasename" : "TC002_amazonHomePageTest"
+    }, {
+      "searchItem" : "TV, Appliances, Electronics",
+      "environment" : "QA",
+      "priority" : "3",
+      "execute" : "Yes",
+      "subSearchItem" : "Televisions",
+      "testcasename" : "TC003_amazonHomePageTest"
+    } ],
+    "orangeHrmTest" : [ {
+      "environment" : "QA",
+      "password" : "admin123",
+      "userLastName" : "admin",
+      "testcasename" : "TC001_dashboardaccesstest",
+      "userFirstName" : "Admin",
+      "priority" : "1",
+      "execute" : "Yes"
+    }, {
+      "environment" : "QA",
+      "password" : "admin123",
+      "userLastName" : "admin1",
+      "testcasename" : "TC001_dashboardaccesstest",
+      "userFirstName" : "Admin1",
+      "priority" : "1",
+      "execute" : "Yes"
+    }, {
+      "environment" : "QA",
+      "password" : "admin123",
+      "userLastName" : "admin",
+      "testcasename" : "TC002_dashboardaccesstest",
+      "userFirstName" : "Admin",
+      "priority" : "2",
+      "execute" : "Yes"
+    }, {
+      "environment" : "QA",
+      "password" : "admin45",
+      "userLastName" : "admi1",
+      "testcasename" : "TC003_dashboardAccessTest",
+      "userFirstName" : "Admin4",
+      "priority" : "3",
+      "execute" : "Yes"
+    } ]
+  }
+}

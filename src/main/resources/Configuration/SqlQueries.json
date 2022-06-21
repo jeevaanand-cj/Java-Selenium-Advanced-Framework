@@ -1,0 +1,17 @@
+{
+  "selectqueries": {
+    "amazonHomePageTest": "select t1.testcasename, t1.environment, t1.execute, t1.searchItem,t1.subSearchItem, t2.priority from amazonhomepagetest t1 left join amazon_testcase_runnerlist t2 on t1.testcasename = t2.testcasename where t1.environment='QA' and t1.execute='Yes';",
+    "orangeHrmTest": "select t1.testcasename, t1.environment, t1.execute, t1.userFirstName,t1.userLastName,t1.password, t2.priority from dashboardaccesstest t1 left join orange_testcase_runnerlist t2 on t1.testcasename = t2.testcasename where t1.environment='QA' and t1.execute='Yes';"
+  },
+  "updatequeries": {
+    "tc001_dashboardaccesstest": "SELECT * FROM development.tc001_dashboardaccesstest;",
+    "tc002_dashboardaccesstest": "SELECT * FROM development.tc002_dashboardaccesstest;",
+    "tc002_dashboardaccesstest": "select * from tc002_dashboardaccesstest t1 left join testcase_priority_list t2 on t1.testcasename = t2.testcasename where t1.environment='QA';",
+    "tc003_dashboardaccesstest": "select * from tc003_dashboardaccesstest t1 left join testcase_priority_list t2 on t1.testcasename = t2.testcasename where t1.environment='QA';"
+  },
+  "runnerlistqueries": {
+    "testCaseLists": "SELECT * FROM development.amazon_testcase_runnerlist;",
+    "testCaseLists1": "SELECT * FROM development.orange_testcase_runnerlist;"
+  }
+
+}

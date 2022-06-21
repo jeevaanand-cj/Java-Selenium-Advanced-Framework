@@ -1,0 +1,42 @@
+{
+  "RunManager" : {
+    "testCaseLists" : [ {
+      "id" : 1,
+      "priority" : "1",
+      "execute" : "Yes",
+      "testcasename" : "TC001_amazonHomePageTest",
+      "testdescription" : "Amazon home page actions"
+    }, {
+      "id" : 2,
+      "priority" : "2",
+      "execute" : "Yes",
+      "testcasename" : "TC002_amazonHomePageTest",
+      "testdescription" : "Copy of Amazon home page actions"
+    }, {
+      "id" : 3,
+      "priority" : "3",
+      "execute" : "Yes",
+      "testcasename" : "TC003_amazonHomePageTest",
+      "testdescription" : "Copy Copy of Amazon home page actions"
+    } ],
+    "testCaseLists1" : [ {
+      "id" : 1,
+      "priority" : "1",
+      "execute" : "Yes",
+      "testcasename" : "TC001_dashboardAccessTest",
+      "testdescription" : "TC001_Orange HRM Login"
+    }, {
+      "id" : 2,
+      "priority" : "2",
+      "execute" : "Yes",
+      "testcasename" : "TC002_dashboardAccessTest",
+      "testdescription" : "TC002_Orange HRM Login"
+    }, {
+      "id" : 3,
+      "priority" : "3",
+      "execute" : "Yes",
+      "testcasename" : "TC003_dashboardAccessTest",
+      "testdescription" : "TC003_Orange HRM Login"
+    } ]
+  }
+}

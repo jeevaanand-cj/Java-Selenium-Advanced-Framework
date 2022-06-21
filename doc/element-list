@@ -1,0 +1,16 @@
+com.gcit.annotations
+com.gcit.Base
+com.gcit.constants
+com.gcit.driver
+com.gcit.enums
+com.gcit.exceptions
+com.gcit.factories
+com.gcit.listeners
+com.gcit.pages.amazon
+com.gcit.pages.basepage
+com.gcit.pages.orangehrm
+com.gcit.reports
+com.gcit.tests.amazon
+com.gcit.tests.google
+com.gcit.tests.orangehrm
+com.gcit.utils

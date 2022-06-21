@@ -1,0 +1,13 @@
+{
+"testdata":{
+  "username": "admin",
+  "password": "admin123",
+  "browser": "chrome"
+
+},
+  "testdata_1":{
+  "username": "Gokul",
+  "password": "Dev123#",
+  "browser": "firefox"
+}
+}
